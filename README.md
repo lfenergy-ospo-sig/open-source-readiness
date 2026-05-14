@@ -20,6 +20,23 @@ The OSPO SIG meets monthly. See the [LF Energy calendar](https://zoom-lfx.platfo
 
 Minutes for past meetings can be found [here](https://github.com/lfenergy-ospo-sig/meetings). Agendas for upcoming meetings are [here](https://github.com/lfenergy-ospo-sig/meetings/issues).
 
+## Running the Site Locally
+
+The site is a [Docusaurus](https://docusaurus.io/) project under `website/`. The project uses **Yarn** (not npm) and requires **Node 18 or 20**.
+
+```sh
+cd website
+yarn install
+yarn start          # dev server with hot reload at http://localhost:3000
+```
+
+To preview the production build (what Netlify ships):
+
+```sh
+yarn build          # outputs to website/build/
+yarn docusaurus serve   # serves website/build/ at http://localhost:3000
+```
+
 ## Contributing to This Repository
 
 1. [Fork it...](https://github.com/lfenergy-ospo-sig/open-source-readiness/fork)
