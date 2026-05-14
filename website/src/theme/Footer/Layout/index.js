@@ -9,8 +9,8 @@ export default function FooterLayout({style, links, logo, copyright}) {
       })}>
       <div className="container container-fluid">
         {logo && <div className="margin-bottom--sm">{logo}</div>}
-        <p className="footer-extra">The Open Source Readiness and InnerSource Special Interest Groups <br />
-          are proud members of the FINOS community.</p>
+        <p className="footer-extra">The LF Energy Open Source Readiness Guide <br />
+          is part of the <a href="https://lists.lfenergy.org/g/ospo-sig">LF Energy OSPO SIG</a>.</p>
         {links}
         {(logo || copyright) && (
           <div className="footer__bottom text--center">

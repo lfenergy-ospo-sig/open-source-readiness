@@ -1,17 +1,17 @@
 module.exports={
-  "title": "FINOS",
-  "tagline": "OVERCOMING OBSTACLES TO OPEN SOURCE",
-  "url": "https://osr.finos.org/",
+  "title": "LF Energy Open Source Readiness",
+  "tagline": "From open source curious to contributor",
+  "url": "https://lfe-osr.netlify.app",
   "baseUrl": "/",
   "trailingSlash": false,
-  "organizationName": "FINOS",
+  "organizationName": "lfenergy-ospo-sig",
   "projectName": "open-source-readiness",
   "scripts": [
     "https://buttons.github.io/buttons.js"
   ],
-  "favicon": "img/favicon/favicon-finos.ico",
+  "favicon": "img/favicon/favicon-lfe.png",
   "customFields": {
-    "repoUrl": "https://github.com/finos/open-source-readiness"
+    "repoUrl": "https://github.com/lfenergy-ospo-sig/open-source-readiness"
   },
   "onBrokenLinks": "log",
   "onBrokenMarkdownLinks": "log",
@@ -23,14 +23,11 @@ module.exports={
           "showLastUpdateAuthor": false,
           "showLastUpdateTime": false,
           "path": "../docs",
-          "editUrl": "https://github.com/finos/open-source-readiness/edit/main/docs"
+          "editUrl": "https://github.com/lfenergy-ospo-sig/open-source-readiness/edit/main/docs"
         },
         "blog": {},
         "theme": {
           "customCss": "src/css/customTheme.css"
-        },
-	"gtag": {
-          "trackingID": "G-FK3GN7DZ2J"
         }
       }
     ]
@@ -41,17 +38,20 @@ module.exports={
     
   ],
   "themeConfig": {
-    "algolia": {
-      "appId": "LOYCC7X3U6",
-      "apiKey": process.env.ALGOLIA_API_KEY ? process.env.ALGOLIA_API_KEY : "none",
-      "indexName": "osr-finos",
-    },
+    // Algolia search disabled — original config pointed at the FINOS index.
+    // To re-enable, apply for DocSearch (https://docsearch.algolia.com/apply/)
+    // and replace appId/apiKey/indexName with LF Energy values.
+    // "algolia": {
+    //   "appId": "TBD",
+    //   "apiKey": process.env.ALGOLIA_API_KEY ? process.env.ALGOLIA_API_KEY : "none",
+    //   "indexName": "TBD",
+    // },
     "navbar": {
-      "title": "FINOS",
+      "title": "LF Energy Open Source Readiness",
       "logo": {
-        "alt": "FINOS Logo",
-        "src": "/img/finos_light.svg",
-        "srcDark": "/img/finos_dark.svg"
+        "alt": "LF Energy OSPO SIG Logo",
+        "src": "/img/ospo-sig-color.svg",
+        "srcDark": "/img/ospo-sig-white.svg"
       },
       "items": [
 		  {
@@ -132,8 +132,8 @@ module.exports={
               "to": "/docs/InnerSource/Introduction#meetings"
             },
             {
-              "label": "FINOS Events",
-              "to": "https://www.finos.org/hosted-events"
+              "label": "LF Energy Events",
+              "to": "https://lfenergy.org/newsroom/events/"
             }
           ]
         },
@@ -141,16 +141,12 @@ module.exports={
           "title": "COMMUNITY",
           "items" : [
             {
-              "label": "FINOS Website",
-              "to": "https://www.finos.org"
+              "label": "LF Energy Website",
+              "to": "https://lfenergy.org"
             },
             {
-              "label": "Community Microsite",
-              "to": "https://community.finos.org"
-            },
-            {
-              "label": "Community Governance",
-              "to": "https://www.finos.org/governance"
+              "label": "LF Energy TAC",
+              "to": "https://tac.lfenergy.org/"
             }
           ]
         },
@@ -158,27 +154,24 @@ module.exports={
           "title": "UPDATES",
           "items": [
             {
-              "html": "<a title=\"GitHub\" href=\"https://github.com/finos/open-source-readiness\"><img src=\"https://img.shields.io/github/stars/finos/open-source-readiness?label=Open%20Source%20Readiness&style=social\" /></a>"
-            },
-            {
-              "html": "<a title=\"X\" href=\"https://twitter.com/FINOSFoundation\"><img src=\"https://img.shields.io/twitter/follow/FinosFoundation?style=social\" ></a>"
+              "html": "<a title=\"GitHub\" href=\"https://github.com/lfenergy-ospo-sig/open-source-readiness\"><img src=\"https://img.shields.io/github/stars/lfenergy-ospo-sig/open-source-readiness?label=Open%20Source%20Readiness&style=social\" /></a>"
             },
             {
               "label": "LinkedIn",
-              "to": "https://www.linkedin.com/company/finosfoundation/"
+              "to": "https://www.linkedin.com/company/lf-energy-foundation"
             },
             {
-              "label": "OSR Mailing List",
-              "to": "mailto:osr+subscribe@finos.org?subject=Subscribe%20Me&body=Please%20subscribe%20me%20to%20the%20OSR%20Mailing%20List"
+              "label": "OSPO SIG Mailing List",
+              "to": "mailto:ospo-sig+subscribe@lists.lfenergy.org?subject=Subscribe%20Me&body=Please%20subscribe%20me%20to%20the%20OSPO%20SIG%20Mailing%20List"
             }
           ]
         }
       ],
-      "copyright": "<span class=\"footer-copyright\">Copyright © 2023 - FINOS</span>",
+      "copyright": "<span class=\"footer-copyright\">Copyright © 2026 - LF Energy</span>",
       "logo": {
-        "src": "/img/finos_light.svg",
-        "srcDark": "/img/finos_dark.svg",
-        "alt": "FINOS Logo",
+        "src": "/img/ospo-sig-color.svg",
+        "srcDark": "/img/ospo-sig-white.svg",
+        "alt": "LF Energy OSPO SIG Logo",
         "width": 50
       }
     }

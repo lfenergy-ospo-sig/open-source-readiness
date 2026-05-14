@@ -1,29 +1,37 @@
-[![Slack](https://img.shields.io/badge/slack-@finos/osr-green.svg?logo=slack)](https://finos-lf.slack.com/messages/open-source-readiness/)
+[![Slack](https://img.shields.io/badge/slack-%23ospo--sig-green.svg?logo=slack)](https://lfenergy.slack.com/archives/C09SF8UBUE9)
 
-<img align="right" width="40%" src="https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/open-source-readiness.svg">
+<img align="right" width="40%" src="https://artwork.lfenergy.org/sigs/ospo-sig/horizontal/color/ospo-sig-horizontal-color.png">
 
-# FINOS Open Source Readiness Special Interest Group
+# LF Energy Open Source Readiness Guide
 
-Welcome to the FINOS Open Source Readiness Special Interest Group (OSR). The purpose of the OSR SIG is to accelerate financial services firms’ journeys toward open source readiness. The concrete goals of the SIG are to 1) advance the readiness of participants’ firms and 2) to provide guidance for the broader industry in the form of white papers, presentations, and blog posts.
+Welcome to the LF Energy Open Source Readiness Guide (LFE OSR). The purpose of this guide is to accelerate open source readiness for energy organizations by creating a body of resources to 1) advance the readiness of participants and 2) provide guidance for the broader industry.
 
-Read more at [https://osr.finos.org](https://osr.finos.org)
+Read more at [https://lfe-osr.netlify.app/](https://lfe-osr.netlify.app/).
+
+Special thanks to the [FINOS OSR](https://osr.finos.org) for inspiration and for providing a great foundation for us to build on.
+
+This work is part of the [LF Energy OSPO SIG](https://lists.lfenergy.org/g/ospo-sig). We communicate primarily via:
+- Slack: [#ospo-sig](https://lfenergy.slack.com/archives/C09SF8UBUE9) in the [LF Energy Slack](https://lfenergy.slack.com)
+- Mailing list: [ospo-sig@lists.lfenergy.org](https://lists.lfenergy.org/g/ospo-sig)
 
 ## Meetings
 
-The SIG meets on the first Wednesday of every month at 10:00 US/Eastern. Agendas and conference info for upcoming meetings can be found in the [issues](https://github.com/finos/open-source-readiness/issues). 
+The OSPO SIG meets monthly. See the [LF Energy calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/ospo-sig?view=month) for upcoming meetings.
+
+Minutes for past meetings can be found [here](https://github.com/lfenergy-ospo-sig/meetings). Agendas for upcoming meetings are [here](https://github.com/lfenergy-ospo-sig/meetings/issues).
 
 ## Contributing to This Repository
 
-1. [Fork it...](https://github.com/finos/open-source-readiness/fork)
+1. [Fork it...](https://github.com/lfenergy-ospo-sig/open-source-readiness/fork)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Read our [contribution guidelines](CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
-4. Commit your changes (`git commit -am 'Add some fooBar'`)
+3. Read our [contribution guidelines](CONTRIBUTING.md) and the [LF Energy Code of Conduct](https://tac.lfenergy.org/code_of_conduct.html)
+4. Commit your changes with a DCO sign-off (`git commit -asm 'Add some fooBar'`)
 5. Push to the branch (`git push origin feature/fooBar`)
-6. Create a new [pull request...](https://github.com/finos/open-source-readiness/pulls)
+6. Create a new [pull request...](https://github.com/lfenergy-ospo-sig/open-source-readiness/pulls)
 
 ## License
 
-Copyright Fintech Open Source Foundation
+Copyright Fintech Open Source Foundation. Modifications copyright LF Energy.
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
