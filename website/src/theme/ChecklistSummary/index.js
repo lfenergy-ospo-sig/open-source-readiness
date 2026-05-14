@@ -83,7 +83,7 @@ function ChecklistSummaryInner() {
 	return (
 		<div id="checklist" className={styles.checklistOutline}>
 			<div className={styles.banner}>
-				<h2>FINOS Open Source Readiness Maturity Checklist</h2>
+				<h2>LF Energy Open Source Readiness Maturity Checklist</h2>
 			</div>
 			<div className={styles.checklistSummary} id="checklist-summary-inner">
 				<DoDocList row={1} uri="/docs/bok/OSMM/Checklist#level-5" name="Level 5" description="Strategic Advantage" icon="/img/bok/maturity/strategy.png" />
