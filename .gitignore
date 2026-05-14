@@ -14,8 +14,8 @@ v2-website/node_modules/
 # Generated docs
 docs/contributing.md
 
-# We use YARN
-website/package-lock.json
+# We use Yarn
+package-lock.json
 
 # vim swap
 [._]*.s[a-w][a-z]

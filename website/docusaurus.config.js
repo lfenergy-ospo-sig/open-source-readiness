@@ -1,4 +1,4 @@
-module.exports={
+module.exports = {
   "title": "LF Energy Open Source Readiness",
   "tagline": "From open source curious to contributor",
   "url": "https://lfe-osr.netlify.app",
@@ -35,7 +35,7 @@ module.exports={
   "plugins": [
     './src/plugin/category-listing',
     './src/plugin/checklist-listing',
-    
+
   ],
   "themeConfig": {
     // Algolia search disabled — original config pointed at the FINOS index.
@@ -47,28 +47,28 @@ module.exports={
     //   "indexName": "TBD",
     // },
     "navbar": {
-      "title": "LF Energy Open Source Readiness",
+      "title": "Open Source Readiness",
       "logo": {
-        "alt": "LF Energy OSPO SIG Logo",
-        "src": "/img/ospo-sig-color.svg",
-        "srcDark": "/img/ospo-sig-white.svg"
+        "alt": "LF Energy Logo",
+        "src": "/img/lf-energy-color.svg",
+        "srcDark": "/img/lf-energy-white.svg"
       },
       "items": [
-		  {
-			  "label": "Open Source Readiness",
-			  "to": "/docs/bok/Introduction",
-			  "position": "right",
-		  },
-		  {
-			  "label": "InnerSource",
-			  "to": "/docs/InnerSource/Introduction",
-			  "position": "right",
-		  },
-		  {
-			  "label": "Strategy",
-			  "to": "/docs/tags/strategy",
-			  "position": "right",
-		  }
+        {
+          "label": "Open Source Readiness",
+          "to": "/docs/bok/Introduction",
+          "position": "right",
+        },
+        {
+          "label": "InnerSource",
+          "to": "/docs/InnerSource/Introduction",
+          "position": "right",
+        },
+        {
+          "label": "Strategy",
+          "to": "/docs/tags/strategy",
+          "position": "right",
+        }
       ]
     },
     "image": "/img/site-preview.png",
@@ -92,10 +92,10 @@ module.exports={
             {
               "label": "InnerSource",
               "to": "/docs/InnerSource/Introduction"
-            },            
+            },
           ]
         },
-         {
+        {
           "title": "DOCS",
           "items": [
             {
@@ -120,7 +120,7 @@ module.exports={
             }
           ]
         },
-         {
+        {
           "title": "EVENTS",
           "items": [
             {
@@ -139,7 +139,7 @@ module.exports={
         },
         {
           "title": "COMMUNITY",
-          "items" : [
+          "items": [
             {
               "label": "LF Energy Website",
               "to": "https://lfenergy.org"
@@ -169,9 +169,9 @@ module.exports={
       ],
       "copyright": "<span class=\"footer-copyright\">Copyright © 2026 - LF Energy</span>",
       "logo": {
-        "src": "/img/ospo-sig-color.svg",
-        "srcDark": "/img/ospo-sig-white.svg",
-        "alt": "LF Energy OSPO SIG Logo",
+        "src": "/img/lf-energy-color.svg",
+        "srcDark": "/img/lf-energy-white.svg",
+        "alt": "LF Energy Logo",
         "width": 50
       }
     }
