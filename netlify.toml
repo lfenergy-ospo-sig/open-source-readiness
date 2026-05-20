@@ -2,6 +2,7 @@
    base = "website"
    command = "yarn build"
    publish = "build"
+   ignore = "/bin/false"
 
 [build.environment]
    NODE_VERSION = "20"
