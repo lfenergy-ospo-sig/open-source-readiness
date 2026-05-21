@@ -3,7 +3,8 @@ title: ""
 hide_table_of_contents: true
 ---
 
-<img src="/img/bok/osr-header.svg" alt="Website banner graphic" className="page-header-image" /> <!-- TODO! -->
+{/* TODO! */}
+<img src="/img/bok/osr-header.svg" alt="Website banner graphic" className="page-header-image" />
 
 # Welcome to Open Source Readiness (OSR)
 
